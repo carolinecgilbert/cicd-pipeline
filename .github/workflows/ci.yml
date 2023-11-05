@@ -22,4 +22,4 @@ jobs:
       run: docker build -t cicd-pipeline .
       
     - name: Push to Dockerhub
-      run: docker push carolinecgilbert/cicd-pipeline:latest
+      run: docker push carolinecgilbert6/cicd-pipeline:latest
